@@ -1,0 +1,15 @@
+$width-sizing: 1200px;
+
+@import 'lib/_settings.scss';
+
+.page-content {
+  position: absolute;
+  width: 100%; height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page-content .width-sizing {
+  position: relative;
+  width: $width-sizing; height: 100%;
+}

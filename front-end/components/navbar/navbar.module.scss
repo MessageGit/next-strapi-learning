@@ -1,0 +1,35 @@
+.navbar {
+    position: fixed;
+    top: 0px; left: 0px;
+    width: 100%; height: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .auth_buttons {
+    position: absolute;
+    bottom: 0px; right: 0px;
+    height: 100%;
+}
+
+.auth_buttons .auth_btn {
+    position: relative;
+    top: 30%;
+    height: 70%;
+    padding: 10px 15px 0px 15px;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+
+.auth_buttons .auth_btn:hover {
+    background-color: #fbffdd;
+}
+
+.auth_buttons .full_border {
+    border: 2px solid #333;
+}
